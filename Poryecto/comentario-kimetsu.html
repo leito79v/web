@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistema de comentarios de Kimetsu</title>
+    <link rel="stylesheet" href="css/comentario.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Sistema de comentarios</h1>
+		<form id="comment-form">
+			<label for="name">Nombre:</label>
+			<input type="text" id="name" name="name">
+			<label for="comment">Comentario:</label>
+			<textarea id="comment" name="comment"></textarea>
+			<input type="submit" value="Enviar comentario" id="submit-comment">
+		</form>
+		<div id="comments-section">
+			<h2>Comentarios:</h2>
+			<ul id="comments-list"></ul>
+		</div>
+	</div>
+
+	<script src="js/comentarios.js"></script>
+</body>
+</html>
